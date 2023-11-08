@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_event_cards",
+  "info": {
+    "displayName": "Event Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "landing-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.hero-section"
+    },
+    "tabsRow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.tabs-row"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.cards-container"
+    }
+  }
+}

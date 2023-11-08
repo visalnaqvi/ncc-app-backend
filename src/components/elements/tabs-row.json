@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_tabs_rows",
+  "info": {
+    "displayName": "Tabs Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabPill": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.pill"
+    }
+  }
+}

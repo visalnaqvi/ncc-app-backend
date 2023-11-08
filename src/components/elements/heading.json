@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_headings",
+  "info": {
+    "displayName": "Heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "isContent": {
+      "type": "boolean"
+    },
+    "isBold": {
+      "type": "boolean"
+    },
+    "isTag": {
+      "type": "boolean"
+    }
+  }
+}

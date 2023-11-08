@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_cards_container_s",
+  "info": {
+    "displayName": "Cards Container "
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.event-card"
+    }
+  }
+}

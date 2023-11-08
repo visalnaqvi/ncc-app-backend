@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_columns",
+  "info": {
+    "displayName": "Column",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.pill"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.heading"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

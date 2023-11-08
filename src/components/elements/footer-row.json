@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_elements_footer_rows",
+  "info": {
+    "displayName": "Footer Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.icon"
+    }
+  }
+}
